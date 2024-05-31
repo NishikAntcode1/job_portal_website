@@ -38,7 +38,7 @@
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
     <!-- Title CSS -->
-    <title>Jovie - Job Board & Portal HTML Template</title>
+    <title>{{ config('app.name') }}</title>
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="{{ asset('assets/img/favicon.png') }}">
     @vite(['resources/js/app.js', 'resources/css/app.css'])
