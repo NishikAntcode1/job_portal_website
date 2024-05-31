@@ -118,7 +118,7 @@
                                 </a>
                             @else
                                 <a href="{{ route('home.account') }}">
-                                    <img src="{{ asset('storage/profile_demo.jpg') }}" alt="avatar"
+                                    <img src="{{ asset('assets/img/profile_demo.jpg') }}" alt="avatar"
                                         class="img-fluid rounded-circle me-1" width="35">
                                 </a>
                             @endif

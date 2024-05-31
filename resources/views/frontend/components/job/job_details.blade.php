@@ -177,7 +177,7 @@
                     <div class="job-sidebar">
                         <h3>Posted By</h3>
                         <div class="posted-by">
-                            <img src="{{ asset($job->user->profile_pic ? 'profile_pic/thumb/' . $job->user->profile_pic : 'storage/profile_demo.jpg') }}"
+                            <img src="{{ asset($job->user->profile_pic ? 'profile_pic/thumb/' . $job->user->profile_pic : 'assets/img/profile_demo.jpg') }}"
                                 alt="client image">
                             <h4>{{ $job->user->name }}</h4>
                             <span>Post Date : {{ \Carbon\Carbon::parse($job->created_at)->format('d M, Y') }}</span>

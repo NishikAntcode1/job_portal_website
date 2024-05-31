@@ -8,7 +8,7 @@
                         <img id="profilePic" class=""
                             src="{{ asset('profile_pic/thumb/' . Auth::user()->profile_pic) }}" alt="Profile Picture">
                     @else
-                        <img id="profilePic" class="" src={{ asset('storage/profile_demo.jpg') }}
+                        <img id="profilePic" class="" src={{ asset('assets/img/profile_demo.jpg') }}
                             alt="Profile Picture">
                     @endif
                     <label for="profilePicInput" class="upload-file-block">
