@@ -23,7 +23,7 @@ class UserOtp extends Model
 
     public function sendSMS($receiverNumber) {
         $message = "Login OTP is ".$this->otp;
-
+        $receiverNumber = '+91'.$receiverNumber;
         try {
             $account_id = getenv("TWILIO_SID");
             $auth_token = getenv("TWILIO_TOKEN");
@@ -33,7 +33,7 @@ class UserOtp extends Model
 
             $client->messages
             ->create(
-                '+91'.$receiverNumber, 
+                $receiverNumber, 
                 [
                     'body' => $message,
                     'from' => $twilio_number,

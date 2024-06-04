@@ -16,7 +16,7 @@
                         <div class="col-lg-3 col-md-4 col-sm-6">
                             <a href="{{ route('home.job_list') . '?category=' . $category->id }}">
                                 <div class="category-card">
-                                    <i class='flaticon-accounting'></i>
+                                    <i class='{{ $category->icon }}'></i>
                                     <h3>{{ $category->name }}</h3>
                                     <p>{{ $category->total_vacancies == null ? 0 : $category->total_vacancies }} open
                                         position</p>

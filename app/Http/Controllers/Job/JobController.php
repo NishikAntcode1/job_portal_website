@@ -138,7 +138,7 @@ class JobController extends Controller
             'job' => $job,
         ];
 
-        $application->sendSMS($apply_data);
+        // $application->sendSMS($apply_data);
         // Mail::to($employer->email)->send(new JobNotificationEmail($mailData));
 
         $message = 'You have successfully applied.';

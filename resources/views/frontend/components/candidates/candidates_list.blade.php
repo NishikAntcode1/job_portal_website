@@ -33,7 +33,7 @@
                                         <img src="{{ asset('profile_pic/thumb/' . $user->profile_pic) }}"
                                             alt="candidate image">
                                     @else
-                                        <img src="{{ asset('profile_pic/thumb/profile_demo.jpg') }}" alt="candidate image">
+                                        <img src="{{ asset('assets/img/profile_demo.jpg') }}" alt="candidate image">
                                     @endif
                                 </div>
                                 <div class="candidate-text">
