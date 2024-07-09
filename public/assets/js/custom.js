@@ -55,6 +55,23 @@ jQuery(function ($) {
         ]
     })
 
+    // Tastimonial Slider JS
+    $('.company-slider').owlCarousel({
+        loop:false,
+        margin:30,
+        nav:true,
+        dots:false,
+        items:4,
+        smartSpeed:3500,
+        autoplay:false,
+        autoplayTimeout:4000,
+        navText:[
+            "<i class='bx bx-chevrons-left'></i>",
+            "<i class='bx bx-chevrons-right bx-tada'></i>"
+        ]
+    })
+
+
     // Nice Select
     $('.select').niceSelect();
 

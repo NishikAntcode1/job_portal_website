@@ -5,7 +5,7 @@
     @include('frontend.components.home.banner')
     @include('frontend.components.home.category')
     @include('frontend.components.home.why_choose')
-    {{-- @include('frontend.components.home.company_location') --}}
+    {{-- @include('frontend.components.home.company') --}}
     @include('frontend.components.home.job')
     @include('frontend.components.home.job_info')
     @include('frontend.components.home.counter')
