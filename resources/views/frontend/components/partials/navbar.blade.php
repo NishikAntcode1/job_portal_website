@@ -2,7 +2,7 @@
     <!-- Menu For Mobile Device -->
     <div class="mobile-nav">
         <a href="{{ route('home') }}" class="logo">
-            <img src="{{ asset('assets/img/logo.png') }}" alt="logo">
+            <img src={{ asset("assets/img/logo.png") }} class="me-2" height="40" alt="logo">
         </a>
     </div>
 
@@ -11,7 +11,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="{{ route('home') }}">
-                    <img src="assets/img/logo.png" alt="logo">
+                    <img src={{ asset("assets/img/logo.png") }} class="me-2" height="50" alt="logo">
                 </a>
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                     <ul class="navbar-nav m-auto">

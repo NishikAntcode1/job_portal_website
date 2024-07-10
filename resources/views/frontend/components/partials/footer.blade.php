@@ -6,7 +6,7 @@
                     <div class="footer-widget">
                         <div class="footer-logo">
                             <a href="{{ route('home') }}">
-                                <img src="assets/img/logo.png" alt="logo">
+                                <img src={{ asset("assets/img/logo.png") }} class="me-2" height="60" alt="logo">
                             </a>
                         </div>
 
