@@ -167,7 +167,7 @@ h3 {
   font-size: 18px;
   font-weight: 500;
   font-family: "Catamaran", sans-serif;
-  background: #fd1616;
+  background: #2b71b4;
   color: #ffffff;
   margin-right: 15px;
   border: 1px solid transparent;
@@ -176,7 +176,7 @@ h3 {
 }
 
 .theme-btn .default-btn:hover {
-  background: #001935;
+  background: #6d6d75;
   border: 1px solid #ffffff;
 }
 
@@ -184,7 +184,7 @@ h3 {
 /*---------- Home Page One CSS Start ----------*/
 /* Navbar CSS Start */
 .navbar-area .main-nav {
-  background: #010c29;
+  background: #ffffff;
   padding: 20px 0;
   position: relative;
 }
@@ -205,6 +205,7 @@ h3 {
   text-transform: capitalize;
   font-family: "Catamaran", sans-serif;
   font-size: 17px;
+  color: #6d6d75;
 }
 
 .navbar-area .main-nav .navbar .navbar-nav .nav-item .nav-link.dropdown-toggle::after {
@@ -216,7 +217,8 @@ h3 {
 }
 
 .navbar-area .main-nav .navbar .navbar-nav .nav-item .nav-link.active {
-  color: #fd1616;
+  color: #2b71b4;
+  font-weight: bold;
 }
 
 .navbar-area .main-nav .navbar .navbar-nav .nav-item .dropdown-menu {
@@ -250,13 +252,13 @@ h3 {
   font-size: 16px;
   font-weight: 600;
   padding: 5px 20px;
-  background: #fd1616;
+  background: #2b71b4;
   border-radius: 5px;
 }
 
 .navbar-area .main-nav .navbar .other-option .signin-btn:hover, .navbar-area .main-nav .navbar .other-option .signup-btn:hover {
-  background: #ffffff;
-  color: #001935;
+  background: #6d6d75;
+  color: #ffffff;
 }
 
 .navbar-area .main-nav .navbar .other-option .signup-btn {
@@ -464,7 +466,7 @@ h3 {
 }
 
 .banner-section .banner-content .keyword li a:hover {
-  color: #fd1616;
+  color: #2b71b4;
 }
 
 /* Banner CSS End */
@@ -482,7 +484,7 @@ h3 {
 
 .category-card i {
   font-size: 50px;
-  color: #fd1616;
+  color: #2b71b4;
   margin-bottom: 25px;
   display: inline-block;
   line-height: 1;
@@ -497,7 +499,7 @@ h3 {
 }
 
 .category-card:hover {
-  border: 1px solid #fd1616;
+  border: 1px solid #6d6d75;
   margin-top: -5px;
 }
 
@@ -535,7 +537,7 @@ h3 {
 }
 
 .job-card .job-info h3 a:hover {
-  color: #fd1616;
+  color: #2b71b4;
 }
 
 .job-card .job-info ul {
@@ -708,7 +710,7 @@ h3 {
 /* Top Company CSS Start */
 .company-card {
   text-align: center;
-  border: 1px dashed #fd1616;
+  border: 1px dashed #2b71b4;
   padding: 40px 30px;
   margin-bottom: 30px;
   -webkit-transition: 0.5s;
@@ -730,7 +732,7 @@ h3 {
 }
 
 .company-card .company-text .company-btn {
-  background: #fd1616;
+  background: #2b71b4;
   color: #ffffff;
   padding: 10px 20px;
   display: inline-block;
@@ -743,7 +745,7 @@ h3 {
 }
 
 .company-card:hover .company-btn {
-  background: #001935;
+  background: #6d6d75;
 }
 
 /* Top Company CSS End */
@@ -848,7 +850,7 @@ h3 {
 /* Why Choose CSS End */
 /* Job Info CSS Start */
 .looking-job {
-  background: #fd1616;
+  background: #2b71b4;
   border-radius: 10px;
   padding: 30px;
   margin-bottom: 30px;
@@ -862,8 +864,8 @@ h3 {
 }
 
 .looking-job .media i {
-  background: #fbd3d3;
-  color: #fd1616;
+  background: #ceced0;
+  color: #2b71b4;
   width: 55px;
   height: 55px;
   border-radius: 50px;
@@ -1350,7 +1352,7 @@ h3 {
 }
 
 .blog-card .blog-text ul li i {
-  color: #fd1616;
+  color: #2b71b4;
   margin-right: 2px;
 }
 
@@ -1365,7 +1367,7 @@ h3 {
 }
 
 .blog-card .blog-text h3 a:hover {
-  color: #fd1616;
+  color: #2b71b4;
 }
 
 .blog-card .blog-text p {
@@ -1373,12 +1375,12 @@ h3 {
 }
 
 .blog-card .blog-text .blog-btn {
-  color: #fd1616;
+  color: #2b71b4;
   font-size: 16px;
 }
 
 .blog-card .blog-text .blog-btn:hover {
-  color: #001935;
+  color: #6d6d75;
 }
 
 .blog-card .blog-text .blog-btn i {
@@ -1479,13 +1481,13 @@ h3 {
 }
 
 .footer-area .footer-widget ul li a i {
-  color: #fd1616;
+  color: #2b71b4;
   top: 2px;
   position: relative;
 }
 
 .footer-area .footer-widget ul li a:hover {
-  color: #fd1616;
+  color: #2b71b4;
 }
 
 .footer-area .footer-widget ul li:last-child {
@@ -1501,7 +1503,7 @@ h3 {
 }
 
 .footer-area .footer-widget.footer-info ul li span i {
-  color: #fd1616;
+  color: #2b71b4;
   margin-right: 5px;
   position: relative;
   top: 2px;
@@ -1697,7 +1699,7 @@ h3 {
 }
 
 .find-form .find-btn {
-  background: #fd1616;
+  background: #2b71b4;
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 600;
@@ -1710,7 +1712,7 @@ h3 {
 }
 
 .find-form .find-btn:hover {
-  background: #001935;
+  background: #6d6d75;
 }
 
 .find-form .find-btn i {
@@ -1848,12 +1850,12 @@ h3 {
 }
 
 .job-card-two .job-info span {
-  background: #fdd6cc;
+  background: #ceced0;
   display: inline-block;
   padding: 5px 10px;
-  color: #fd1616;
+  color: #2b71b4;
   margin-bottom: 10px;
-  border: 1px dashed #fd1616;
+  border: 1px dashed #2b71b4;
   font-size: 14px;
 }
 
@@ -1889,7 +1891,7 @@ h3 {
 }
 
 .counter-section .counter-text i {
-  color: #fd1616;
+  color: #2b71b4;
   font-size: 60px;
 }
 
@@ -1901,7 +1903,7 @@ h3 {
 /* Counter CSS End */
 /* Testimonial CSS Strat */
 .testimonial-slider-two .testimonial-items .testimonial-text {
-  background: #feebe6;
+  background: #ceced0;
   padding: 50px;
   margin: 0 0 25px 0;
   -webkit-transition: 0.5s;
@@ -1909,7 +1911,7 @@ h3 {
 }
 
 .testimonial-slider-two .testimonial-items .testimonial-text i {
-  color: #fd987f;
+  color: #2b71b4;
   font-size: 30px;
   margin-bottom: 20px;
   -webkit-transition: 0.5s;
@@ -1938,7 +1940,7 @@ h3 {
 }
 
 .testimonial-slider-two .testimonial-items:hover .testimonial-text {
-  background: #fd1616;
+  background: #2b71b4;
 }
 
 .testimonial-slider-two .testimonial-items:hover .testimonial-text i, .testimonial-slider-two .testimonial-items:hover .testimonial-text p {
@@ -1946,7 +1948,7 @@ h3 {
 }
 
 .testimonial-slider-two .owl-prev, .testimonial-slider-two .owl-next {
-  background: #f8cbc0 !important;
+  background: #ceced0 !important;
   color: #ffffff !important;
   font-size: 22px !important;
   width: 40px !important;
@@ -1959,7 +1961,7 @@ h3 {
 }
 
 .testimonial-slider-two .owl-prev:hover, .testimonial-slider-two .owl-next:hover {
-  background: #fd1616 !important;
+  background: #2b71b4 !important;
   color: #ffffff !important;
 }
 
@@ -1985,7 +1987,7 @@ h3 {
 .banner-style-three .banner-text span {
   font-size: 18px;
   font-weight: 600;
-  color: #fd1616;
+  color: #2b71b4;
   margin-bottom: 20px;
   display: inline-block;
 }
@@ -2008,17 +2010,17 @@ h3 {
 }
 
 .banner-style-three .banner-text .theme-btn .default-btn:hover {
-  background: #fd1616;
+  background: #2b71b4;
   color: #ffffff;
 }
 
 .banner-style-three .banner-text .theme-btn .active {
-  background: #fd1616;
+  background: #2b71b4;
   color: #ffffff;
 }
 
 .banner-style-three .banner-text .theme-btn .active:hover {
-  background: #001935;
+  background: #6d6d75;
 }
 
 /* Banner CSS End */
@@ -2475,11 +2477,11 @@ h3 {
 /* Banner CSS End */
 /* Category CSS Start */
 .category-style-three .category-card {
-  background: #fd1616;
+  background: #2b71b4;
 }
 
 .category-style-three .category-card:hover {
-  background: #001935;
+  background: #6d6d75;
   border: 1px solid transparent;
 }
 
@@ -2508,7 +2510,7 @@ h3 {
 }
 
 .choose-style-two .why-choose-text .media i {
-  color: #fd1616;
+  color: #2b71b4;
   background: none;
   font-size: 50px;
   top: 10px;
@@ -2636,7 +2638,7 @@ h3 {
 }
 
 .page-title ul li a:hover {
-  color: #fd1616;
+  color: #2b71b4;
 }
 
 .page-title.title-bg1 {
@@ -2781,7 +2783,7 @@ h3 {
 }
 
 .job-post-from .post-btn {
-  background: #fd1616;
+  background: #2b71b4;
   color: #ffffff;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -2792,7 +2794,7 @@ h3 {
 }
 
 .job-post-from .post-btn:hover {
-  background: #001935;
+  background: #6d6d75;
 }
 
 /*---------- Post Jobs Page CSS End ----------*/
@@ -2815,7 +2817,7 @@ h3 {
   line-height: 50px;
   padding: 0;
   background: #ffffff;
-  color: #fd1616;
+  color: #2b71b4;
   font-weight: 600;
   font-size: 17px;
   -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
@@ -2863,7 +2865,7 @@ h3 {
   line-height: 50px;
   padding: 0;
   background: #ffffff;
-  color: #fd1616;
+  color: #2b71b4;
   font-weight: 600;
   font-size: 17px;
   -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
@@ -3329,7 +3331,7 @@ h3 {
   line-height: 50px;
   padding: 0;
   background: #ffffff;
-  color: #fd1616;
+  color: #2b71b4;
   font-weight: 600;
   font-size: 17px;
   -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
@@ -3408,12 +3410,12 @@ h3 {
 }
 
 .account-information ul li a:hover {
-  background: #fd1616;
+  background: #2b71b4;
   color: #ffffff;
 }
 
 .account-information ul li a.active {
-  background: #fd1616;
+  background: #2b71b4;
   color: #ffffff;
 }
 
@@ -3456,7 +3458,7 @@ h3 {
 
 .account-details form .account-btn {
   font-size: 16px;
-  background: #fd1616;
+  background: #2b71b4;
   padding: 5px 30px;
   color: #ffffff;
   margin-top: 10px;
@@ -3467,7 +3469,7 @@ h3 {
 }
 
 .account-details form .account-btn:hover {
-  background: #001935;
+  background: #6d6d75;
 }
 
 .account-details form:last-child {
@@ -4037,7 +4039,7 @@ h3 {
   line-height: 50px;
   padding: 0;
   background: #ffffff;
-  color: #fd1616;
+  color: #2b71b4;
   font-weight: 600;
   font-size: 17px;
   -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
@@ -4131,7 +4133,7 @@ h3 {
   line-height: 50px;
   padding: 0;
   background: #ffffff;
-  color: #fd1616;
+  color: #2b71b4;
   font-weight: 600;
   font-size: 17px;
   -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
@@ -4547,7 +4549,7 @@ h3 {
   right: 30px;
   color: #ffffff;
   font-size: 30px;
-  background: #fd1616;
+  background: #2b71b4;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -4560,7 +4562,7 @@ h3 {
 }
 
 .top-btn:hover {
-  background: #001935;
+  background: #6d6d75;
 }
 
 .top-btn.active {
