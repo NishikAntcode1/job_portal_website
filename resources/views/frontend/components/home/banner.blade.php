@@ -5,7 +5,7 @@
                 <div class="banner-text">
                     <span>Find Jobs, Employment & Career Opportunities</span>
                     <h1>Your job search ends here</h1>
-                    <p>Explore 30k+ caareer opportunities.</p>
+                    <p>Explore 30k+ career opportunities.</p>
 
                     <div class="theme-btn">
                         <a href="{{ route('account.resume') }}" class="default-btn active">Upload your CV</a>
