@@ -26,7 +26,7 @@
                             <h5 class="mt-0">Are You Recruiting?</h5>
                             <p>Your next role could be with one of these top leading organizations</p>
 
-                            <a href="#">
+                            <a href="{{ route('home.business_enquiry') }}">
                                 Apply Now
                                 <i class='bx bx-chevrons-right'></i>
                             </a>

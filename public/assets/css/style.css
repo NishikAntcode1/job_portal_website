@@ -2735,7 +2735,7 @@ h3 {
           box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
   padding: 50px;
   border-radius: 10px;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 
 .job-post-from h2 {

@@ -57,7 +57,7 @@ class HomeController extends Controller
     public function categories()
     {
         $categories = Category::where('status', 1)
-            ->orderBy('name', 'ASC')
+            // ->orderBy('name', 'ASC')
             ->withCount(['jobs as total_vacancies' => function ($query) {
                 $query->select(DB::raw('sum(vacancy) as total_vacancies'));
             }])
@@ -99,5 +99,14 @@ class HomeController extends Controller
     }
     public function services() {
         return view('frontend.components.pages.services');
+    }
+
+    public function business_enquiry() {
+
+        $categories = Category::where('status', 1)->get();
+
+        return view('frontend.components.pages.business_enquiry', [
+            'categories' => $categories
+        ]);
     }
 }

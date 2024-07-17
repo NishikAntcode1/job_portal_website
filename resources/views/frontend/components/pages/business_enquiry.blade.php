@@ -4,12 +4,12 @@
 <section class="page-title title-bg1">
     <div class="d-table">
         <div class="d-table-cell">
-            <h2>Post A Blog</h2>
+            <h2>Business Enquiry</h2>
             <ul>
                 <li>
                     <a href="{{ route('home') }}">Home</a>
                 </li>
-                <li>Post A Blog</li>
+                <li>Business Enquiry</li>
             </ul>
         </div>
     </div>
@@ -23,13 +23,13 @@
         <div class="container">
             <form method="POST" action="" class="job-post-from" id="create_blog_form">
                 @csrf
-                <h2>Fill Up Your Blog information</h2>
+                <h2>Fill Up Your Enquiry Form</h2>
                 <div class="row">
 
                     <div class="col-md-6">
                         <div class="form-group">
-                            <label>Blog Title*</label>
-                            <input type="text" class="form-control" id="title" placeholder="Blog Title" name="title"
+                            <label>Name*</label>
+                            <input type="text" class="form-control" id="name" placeholder="Name" name="name"
                                 required>
                             <p></p>
                         </div>
@@ -37,12 +37,57 @@
 
                     <div class="col-md-6">
                         <div class="form-group">
-                            <label>Blog Category*</label>
-                            <select class="category select" id="category" name="category" >
-                                <option value="" disabled selected>Blog Category</option>
-                                @if ($blog_categories->isNotEmpty())
-                                    @foreach ($blog_categories as $blog_category)
-                                        <option value="{{ $blog_category->id }}">{{ $blog_category->name }}</option>
+                            <label>Company*</label>
+                            <input type="text" class="form-control" id="company" placeholder="Company/Organisation" name="company_name"
+                                required>
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Designation*</label>
+                            <input type="text" class="form-control" id="designation" placeholder="Designation" name="designation"
+                                required>
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Email*</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email" name="email"
+                                required>
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Phone*</label>
+                            <input type="number" class="form-control" id="phone" placeholder="Phone Number" name="phone"
+                                required>
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Location*</label>
+                            <input type="text" class="form-control" id="location" placeholder="Location" name="location"
+                                required>
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Industry*</label>
+                            <select class="category select" id="category" name="category">
+                                <option value="" disabled selected>Industry</option>
+                                @if ($categories->isNotEmpty())
+                                    @foreach ($categories as $category)
+                                        <option value="{{ $category->id }}">{{ $category->name }}</option>
                                     @endforeach
                                 @endif
                             </select>
@@ -52,25 +97,16 @@
 
                     <div class="col-md-12">
                         <div class="form-group">
-                            <label for="content">Content*</label>
-                            <textarea class="form-control description-area textarea" id="content" name="content" rows="6" placeholder="Content"
-                                required></textarea>
-                            <p></p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-12">
-                        <div class="form-group">
-                            <label for="main_image">Blog Image*</label>
-                            <input type="file" class="form-control" id="main_image" name="main_image" accept=".jpg,.jpeg,.png"
-                                placeholder="Upload Image" required>
+                            <label for="content">Description*</label>
+                            <textarea class="form-control description-area" id="description" name="description" rows="6" placeholder="Summery Of Requirement(200 characters max)*"
+                            required></textarea>
                             <p></p>
                         </div>
                     </div>
 
                     <div class="col-md-12 text-center">
                         <button type="submit" class="post-btn">
-                            Post A Blog
+                            Submit
                         </button>
                     </div>
 
@@ -80,7 +116,7 @@
     </div>
 @endsection
 
-@section('customJs')
+{{-- @section('customJs')
     <script type="text/javascript">
 
         $("#create_blog_form").submit(function(e) {
@@ -186,4 +222,4 @@
             });
         });
     </script>
-@endsection
+@endsection --}}

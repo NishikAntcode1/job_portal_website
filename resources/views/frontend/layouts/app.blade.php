@@ -71,7 +71,7 @@
                             <p class="text-danger" id="image-error"></p>
                         </div>
                         <div class="d-flex justify-content-end">
-                            <button type="submit" class="btn btn-danger mx-3">Update</button>
+                            <button type="submit" class="btn btn-primary mx-3">Update</button>
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
                     </form>
@@ -141,7 +141,9 @@
     <script src="{{ asset('assets/js/custom.js') }}"></script>
 
     <script>
-        $('.textarea').trumbowyg();
+        $('.textarea').trumbowyg({
+            removeformatPasted: true
+        });
 
 
         $.ajaxSetup({
