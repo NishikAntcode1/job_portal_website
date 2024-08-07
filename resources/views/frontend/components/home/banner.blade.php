@@ -9,7 +9,7 @@
 
                     <div class="theme-btn">
                         <a href="{{ route('account.resume') }}" class="default-btn active">Upload your CV</a>
-                        <a href="contact.html" class="default-btn">Contact Us</a>
+                        <a href="{{ route('home.contact_us') }}" class="default-btn">Contact Us</a>
                     </div>
                 </div>
             </div>

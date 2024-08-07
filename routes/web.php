@@ -25,6 +25,7 @@ Route::get('home/companies', [HomeController::class, 'companies'])->name('home.c
 Route::get('home/about_us', [HomeController::class, 'about_us'])->name('home.about_us');
 Route::get('home/services', [HomeController::class, 'services'])->name('home.services');
 Route::get('home/business_enquiry', [HomeController::class, 'business_enquiry'])->name('home.business_enquiry');
+Route::get('home/contact_us', [HomeController::class, 'contact_us'])->name('home.contact_us');
 
 
 Route::get('home/blog_list', [BlogController::class, 'index'])->name('home.blog_list');

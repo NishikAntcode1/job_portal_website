@@ -109,4 +109,8 @@ class HomeController extends Controller
             'categories' => $categories
         ]);
     }
+
+    public function contact_us() {
+        return view('frontend.components.pages.contact_us');
+    }
 }

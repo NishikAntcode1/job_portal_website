@@ -104,6 +104,10 @@
                             <a href="{{ route('home.services') }}"
                                 class="nav-link {{ request()->routeIs('home.services') ? 'active' : '' }}">Services</a>
                         </li>
+                        <li class="nav-item">
+                            <a href="{{ route('home.contact_us') }}"
+                                class="nav-link {{ request()->routeIs('home.contact_us') ? 'active' : '' }}">Contact Us</a>
+                        </li>
                     </ul>
 
                     <div class="other-option">

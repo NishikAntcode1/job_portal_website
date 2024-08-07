@@ -4518,7 +4518,7 @@ h3 {
 }
 
 .contact-area form .contact-btn {
-  background: #fd1616;
+  background: #2b71b4;
   color: #ffffff;
   padding: 12px 30px;
   -webkit-transition: .8s;
@@ -4527,7 +4527,7 @@ h3 {
 }
 
 .contact-area form .contact-btn:hover {
-  background: #c10101;
+  background: #6d6d75;
 }
 
 .contact-area form .list-unstyled {
